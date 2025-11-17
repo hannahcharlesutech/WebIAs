@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Desktop stylesheet-->
+        <link rel="stylesheet" media="screen and (min-width: 950px)" href="CCDstyle_desktop.css">
+        <!--Mobile stylesheet-->
+        <link rel="stylesheet" href="CCDstyle_mobile.css" media="screen and (max-width: 949px)">
+
+        <!--Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <header class="header_banner">
+            <div class="header_content">
+                <h1 class="header_title">
+                    Cosmos Cookies <span class="subtext">& Desserts</span>
+                </h1>
+            
+                <!--mobile menu button-->
+                <button id="togglemenu" class="mobilemenubtn">☰</button>
+            </div>
+        
+            <!--Navigation bar : desktop-->
+            <nav>
+                <ul class="nav-list">
+                    <li><img src="IA2Assets/cosmoscookiesdesserts.jpg" alt="logo" class="headerlogoleft"></li>
+                    <div class="nav-links">
+                    <li> <a href="index.html" >About Us</a> </li> 
+                    <li> <a href="login.html">Login</a></li>
+                    <li> <a href="register.html">Register</a></li>
+                    <li> <a href="menu.html">Menu</a></li>
+                    <li> <a href="cart.html" class="active">Cart</a></li>
+                    <li> <a href="checkout.html">Checkout</a></li>
+                    </div>
+                   
+                </ul>
+            </nav>
+            
+
+        </header>
+
+            <!--Navigation bar : Mobile-->
+            <nav class="side-navbar" id="sidenavbar">
+                <a href="index.html" >About Us</a>
+                <a href="login.html" >Login</a>
+                <a href="register.html">Register</a>
+                <a href="menu.html">Menu</a>
+                <a href="cart.html" class="active">Cart</a>
+                <a href="checkout.html">Checkout</a>
+            </nav>
+            
+            <main>
+                <section class="cart-section">
+                    <h2 class="section-title">Your Shopping Cart</h2>
+                    <div class="cart-container">
+                        <table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-items">
+                                
+                            </tbody>
+                        </table>
+            
+                        <div class="cart-summary">
+                            <p id="cart-total">Total: $0.00</p>
+                            <button id="clear-cart" class="cart-btn">Clear All</button>
+                            <button id="checkout-btn" class="cart-btn">Check Out</button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            
+            <footer>
+                <div class="footer-container">
+                    <div class="footerlogo">
+                        <img src="IA2Assets/cosmoscookiesdesserts.jpg" alt="hanslogo" class="footerlogo">
+                    </div>
+    
+                    <div class="contact">
+                        <p>Contact: <a href="+876-797-6676">Tele: (876)-797-6676</a> <span>|</span>
+                            <a href="mailto:hannahcharles@students.utech.edu.jm">
+                                hannahcharles@students.utech.edu.jm </p>
+                    </div>
+                    <div class="copyright">
+                        <p> &copy; 2025 Hannah Charles. All rights reserved</p>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="script.js"></script>
+
+    </body>
+</html>
